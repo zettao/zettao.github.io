@@ -10,7 +10,14 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
-h3, h4, h5, p {
+
+h1, h2, h3, h4, h5 {
+	font-family: Lato, Arial, sans-serif;
+	text-decoration: none;
+	color: inherit;
+	font-weight: 500;
+}
+p {
 	font-family: Lato, Arial, sans-serif;
 	text-decoration: none;
 	color: inherit;
@@ -56,21 +63,22 @@ nav {
 		flex: 25%;
 	}
 
-/* FIM DO NAV */
-/* FIM DO NAV */
-/* FIM DO NAV */
+/* CONTAINER */
 
-.container {
+.content {
 	width: 100%;
 }
 
+/* PRIMEIRA SEÇÃO */
+/* PRIMEIRA SEÇÃO */
+/* PRIMEIRA SEÇÃO */
 
 .first { 
-	height: 39.5vw;
-	background-image: url('../images/moto.png');
+	height: 42vw;
 	background-position: center 100%;
 	background-repeat: no-repeat;
-	background-size: 25em;
+	background-image: url('../images/moto.png');
+	background-size: 50vw;
 	text-align: center;
 	margin: 0;
 	color: white;
@@ -90,23 +98,66 @@ nav {
 		color: #ff4800;
 	}
 
+/* SEGUNDA SEÇÃO */
+/* SEGUNDA SEÇÃO */
+/* SEGUNDA SEÇÃO */
 
 .second {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-around;
+	align-content: center;
 	width: 100%;
-	background-color: #eaeaea;
-	height: 47vw;
+	height: 50vw;
+	color: white;
 	-webkit-box-shadow: inset 0px 7px 24px -13px rgba(0,0,0,1);
 	-moz-box-shadow: inset 0px 7px 24px -13px rgba(0,0,0,1);
 	box-shadow: inset 0px 7px 24px -13px rgba(0,0,0,1);
 }
+.second p {
+	width: 23vw;
+	align-self: center;
+}
 	.sec {
 		display: flex;
-		flex: 25%;
-		margin: 2em auto;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.redondo { border-radius: 50%; width: 200px; height: 200px; }
+	.voce { 
+		background-color: #b8252b; 
+		background-image: url('../images/para-voce_back.png'); 
+		background-repeat: no-repeat;
+		background-size: 100%;
+	 	min-width: 33%;
+	 	text-shadow: 1px 1px 0px rgba(50, 50, 50, 0.5);
+	 }
+	.negocio { 
+		background-color: #007f90; 
+		background-image: url('../images/para-negocio_back.png'); 
+		background-repeat: no-repeat;
+		background-size: 100%;
+		min-width: 34%;
+		text-shadow: 1px 1px 0px rgba(50, 50, 50, 0.5);
+	}
+	.restaurante { 
+		background-color: #f26d34; 
+		background-image: url('../images/para-restaurante_back.png'); 
+		background-repeat: no-repeat;
+		background-size: 100%;
+		min-width: 33%;
+		text-shadow: 1px 1px 0px rgba(50, 50, 50, 0.5);
+	}
+	.btn_sec {
+		border: 2px solid white;
+		padding: 0.75vw 5vw;
+		align-self: center;
+		transition: color 0.75s, background-color 0.5s;
+	}
+	.btn_sec:hover {
+		background-color: white;
+		color: #ff4800;
 	}
 
 footer {
