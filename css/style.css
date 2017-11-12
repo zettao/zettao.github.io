@@ -67,7 +67,7 @@ nav {
 
 .first { 
 	height: 39.5vw;
-	background-image: url('images/moto.png');
+	background-image: url('../images/moto.png');
 	background-position: center 100%;
 	background-repeat: no-repeat;
 	background-size: 25em;
