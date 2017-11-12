@@ -1,1 +1,133 @@
 
+body, html {
+	height: 100%;
+	margin: 0;
+	background-color: #ff4800;
+}
+
+a {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: inherit;
+}
+h3, h4, h5, p {
+	font-family: Lato, Arial, sans-serif;
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	list-style: none;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 1.05em;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0px auto;
+	padding: 1em;
+	width: 90%;
+}
+	nav .nav_mid a, .nav_right a  {
+		text-decoration: none;
+		display: inline-block;
+		padding: 1em;
+		border: 0px solid #ff4800;
+		transition: color 1s, border-color 1.5s ease;
+		color: white;
+	}
+	nav .nav_mid a:hover, .nav_right a:hover {
+		color: #ffd3c1;
+		border-bottom: 1px solid white;
+	}	
+	.nav_left{ 
+		flex: 25%;
+	}
+	.nav_left img {
+		float: right;
+	}
+
+	.nav_mid {
+		flex-basis: 50%;
+		text-align: center;
+	}
+	.nav_right {
+		flex: 25%;
+	}
+
+/* FIM DO NAV */
+/* FIM DO NAV */
+/* FIM DO NAV */
+
+.container {
+	width: 100%;
+}
+
+
+.first { 
+	height: 39.5vw;
+	background-image: url('images/moto.png');
+	background-position: center 100%;
+	background-repeat: no-repeat;
+	background-size: 25em;
+	text-align: center;
+	margin: 0;
+	color: white;
+}
+	.first h3 {
+		padding: 1.5em;
+	}
+
+	.btn_solicitar {
+		border: 2px solid white;
+		padding: 0.5em 1em;
+		
+		transition: background-color 0.5s, color 0.5s;
+	}
+	.btn_solicitar:hover {
+		background-color: white;
+		color: #ff4800;
+	}
+
+
+.second {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	background-color: #eaeaea;
+	height: 47vw;
+	-webkit-box-shadow: inset 0px 7px 24px -13px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 7px 24px -13px rgba(0,0,0,1);
+	box-shadow: inset 0px 7px 24px -13px rgba(0,0,0,1);
+}
+	.sec {
+		display: flex;
+		flex: 25%;
+		margin: 2em auto;
+	}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 1em;
+}
+footer ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+footer ul a { 
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.5em;
+	color:  #3333cc;
+}
+
+
+/* CSS ICONS MADED BY IMAGES */
