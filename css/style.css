@@ -160,6 +160,35 @@ nav {
 		color: #ff4800;
 	}
 
+/* TERCEIRA SEÇÃO */
+/* TERCEIRA SEÇÃO */
+/* TERCEIRA SEÇÃO */
+
+.third {
+	background-color: #1fabc9;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	width: 100%;
+	height: 37vw;
+	-webkit-box-shadow: inset 0px 7px 24px -13px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 7px 24px -13px rgba(0,0,0,1);
+	box-shadow: inset 0px 7px 24px -13px rgba(0,0,0,1);
+}
+	.t_left {
+		
+	}
+	.t_mid {
+		background-image: url('../images/app.png');
+		background-repeat: no-repeat;
+		background-size: 40vw;
+		background-position: center 100%;
+	}
+	.t_right {
+
+	}
+
 footer {
 	display: flex;
 	flex-direction: row;
